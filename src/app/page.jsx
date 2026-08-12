@@ -15,8 +15,8 @@ import Button from "@/components/formElements/Button";
 import { ArrowRight, Plus } from "lucide-react";
 import Avatar from "@/components/Avatar";
 import Badge from "@/components/formElements/Badge";
-//import Skeleton from "@/components/Skeleton";
-//import SkeletonCard from "@/components/SkeletonCard";
+import Skeleton from "@/components/Skeleton";
+import SkeletonCard from "@/components/SkeletonCard";
 //import MultiSelect from "@/components/formElements/MultiSelect";
 
 
@@ -64,9 +64,9 @@ export default function Home() {
     placeholder: "Enter your phone number",
   }}
 />
-      {/*<br/><br/><br/>
-      <PasswordInput inputProps={{placeholder:"Password"}}/>
       <br/><br/><br/>
+      <PasswordInput inputProps={{placeholder:"Password"}}/>
+      
         <br/><br/><br/>
         <SelectInput options={[
     {
@@ -86,16 +86,32 @@ export default function Home() {
   <br/><br/><br/>
   <Checkbox label="Accept terms" helperText="I agree to the terms and conditions." inputProps={{
     defaultChecked: true,
-  }}/> */}
+  }}/> 
   <br/>
-  {/* <Input type="text"
+  <Input type="text"
     label="Username"
     leftIcon={<User size={20} />}
     inputProps={{
       name: "username",
       placeholder:"Enter username",
-    }}/> */}
-    {/* <Input
+    }}/>
+    <br />
+    <Input type="search"
+    label="SEARCHBOX"
+    inputProps={{
+      name: "searchbox",
+      placeholder:"search here..",
+    }}/>
+    <br />
+    <br />
+    <Input type="age"
+    label="age"
+    inputProps={{
+     
+      placeholder:"Enter your age",
+    }}/>
+    <br />
+     <Input
           type="email"
           label="Email"
           leftIcon={<MailOpen size={20}/>}
@@ -160,7 +176,7 @@ export default function Home() {
 <FileUpload
   label="Upload Resume"
   uploadClassName="min-h-40 rounded-2x1 bg-red-100"
-/> */}
+/> 
 
 
 
@@ -192,8 +208,13 @@ export default function Home() {
   src="/man.png"
   fallback="JD"
   size="xl"
-  
 />
+<br />
+<button variant="secondary">Secondary
+  </button>
+  <br />
+<button variant="primary">Secondary
+  </button>
 <br />
 <Badge size="lg" variant="info">
   New
