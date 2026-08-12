@@ -51,18 +51,8 @@ export default function Home() {
 
   return (
     <div className="h-screen bg-black font-sans flex flex-col justify-center items-center px-50 ">
-      {/* <InputWithLabel name={"name"} inputClassName="" />
-      <InputWithLabel
-        name={"email"}
-        inputClassName=""
-        inputProps={{
-          type: "email",
-        }}
-      /> */}
-      <br/><br/><br/>
-      <PasswordInput inputProps={{placeholder:"Password"}}/>
       
-        <br/><br/><br/>
+        <br/>
         <SelectInput options={[
     {
       label: "Choose Country",
@@ -76,9 +66,8 @@ export default function Home() {
       label: "USA",
       value: "usa",
     }]}/>
-    <br/><br/><br/>
+    <br/>
     
-  <br/><br/><br/>
   <Checkbox label="Accept terms" helperText="I agree to the terms and conditions." inputProps={{
     defaultChecked: true,
   }}/> 
@@ -103,7 +92,6 @@ export default function Home() {
     autoComplete: "email",
   }}
 />
-    <br />
     <br />
     <Input
           type="search"
@@ -212,9 +200,6 @@ export default function Home() {
   label="Upload Resume"
   uploadClassName="min-h-40 rounded-2x1 bg-red-100"
 /> 
-
-
-
 <br />
 {/* <MultiSelect
             label="Skills"
@@ -270,7 +255,7 @@ export default function Home() {
   Secondary
 </Button>
 <br />
-<Badge size="lg" variant="info">
+<Badge size="lg" variant="error">
   New
 </Badge>
 <Badge
@@ -284,7 +269,7 @@ export default function Home() {
   AI Agent
 </Badge>
 <br />
-
+      <PasswordInput inputProps={{placeholder:"Password"}}/>
 <br />
 
     </div>
