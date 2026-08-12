@@ -11,7 +11,7 @@ function Select({
     selectProps = {},
     }) {
         const generatedId = useId();
-        const selectId = inputProps.id || generatedId;
+        const selectId = selectProps.id || generatedId;
     return (
         <div className="flex w-full flex-col gap-2">
 

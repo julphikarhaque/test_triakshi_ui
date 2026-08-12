@@ -59,11 +59,6 @@ export default function Home() {
           type: "email",
         }}
       /> */}
-    <PhoneInput
-  inputProps={{
-    placeholder: "Enter your phone number",
-  }}
-/>
       <br/><br/><br/>
       <PasswordInput inputProps={{placeholder:"Password"}}/>
       
@@ -95,6 +90,20 @@ export default function Home() {
       name: "username",
       placeholder:"Enter username",
     }}/>
+    <br />
+    <Input
+  type="email"
+  label="Email"
+  helperText="we will never share your email"
+  inputClassName=""
+  inputProps={{
+    name: "email",
+    placeholder: "Enter your email",
+    required: true,
+    autoComplete: "email",
+  }}
+/>
+    <br />
     <br />
     <Input
           type="search"
@@ -133,15 +142,31 @@ export default function Home() {
             autoComplete:"email",
           }}
         />
+        <br />
         <Input
-  type="text"
-  label="Name"
+          type="email"
+          label="Email"
+          error="Please enter a valid email address."
+          inputProps={{
+            placeholder: "Enter email",
+          }}
+        />
+        <br />
+        <Input
+          type="text"
+          label="Name"
+          inputProps={{
+            name: "name",
+            placeholder: "Enter your name",
+          }}
+        />
+  <br/>
+  <PhoneInput
   inputProps={{
-    name: "name",
-    placeholder: "Enter your name",
+    placeholder: "Enter your phone number",
   }}
 />
-  <br/>
+  <br />
   <Radio
   label="React"
   inputProps={{
