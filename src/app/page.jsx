@@ -96,20 +96,30 @@ export default function Home() {
       placeholder:"Enter username",
     }}/>
     <br />
-    <Input type="search"
-    label="SEARCHBOX"
-    inputProps={{
-      name: "searchbox",
-      placeholder:"search here..",
-    }}/>
+    <Input
+          type="search"
+          label="Search"
+          inputProps={{
+            placeholder: "Search...",
+          }}
+        />
     <br />
+    <Input
+          type="email"
+          label="Work Email"
+          helperText="Use your company email address."
+          inputProps={{
+            placeholder: "you@company.com",
+          }}
+        />
     <br />
-    <Input type="age"
-    label="age"
-    inputProps={{
-     
-      placeholder:"Enter your age",
-    }}/>
+    <Input
+          type="number"
+          label="Age"
+          inputProps={{
+            placeholder: "Enter your age",
+          }}
+        />
     <br />
      <Input
           type="email"
