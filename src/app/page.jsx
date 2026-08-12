@@ -1,5 +1,5 @@
 //"use client";
-
+import { Trash2 } from "lucide-react";
 import InputWithLabel from "@/components/formElements/inputWithLabel";
 import PasswordInput from "@/components/formElements/PasswordInput";
 import PhoneInput from "@/components/formElements/PhoneInput";
@@ -213,6 +213,13 @@ export default function Home() {
 >
   Disabled
 </Button>
+<br />
+<Button
+  variant="destructive"
+  leftIcon={<Trash2 size={16} />}
+>
+  Delete
+</Button>
 <br/>
 <Avatar
   src="/man.png"
@@ -220,11 +227,23 @@ export default function Home() {
   size="xl"
 />
 <br />
-<button variant="secondary">Secondary
-  </button>
+<Button
+  variant="primary"
+  buttonClassName="
+    rounded-full
+    px-8
+  "
+>
+  Get Started
+</Button>
   <br />
-<button variant="primary">Secondary
-  </button>
+<Button variant="primary">
+  Primary
+</Button>
+
+<Button variant="secondary">
+  Secondary
+</Button>
 <br />
 <Badge size="lg" variant="info">
   New
