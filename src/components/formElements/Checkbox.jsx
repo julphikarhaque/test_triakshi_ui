@@ -24,9 +24,7 @@ function Checkbox({
 
   const isControlled = controlledChecked !== undefined;
 
-  const checked = isControlled
-    ? controlledChecked
-    : uncontrolledChecked;
+  const checked = isControlled ? controlledChecked : uncontrolledChecked;
 
   function handleChange(event) {
     if (!isControlled) {
@@ -41,7 +39,10 @@ function Checkbox({
 
   return (
     <div className="flex w-full flex-col gap-2">
-      <label className="flex cursor-pointer items-start gap-3" htmlFor={checkboxId}>
+      <label
+        className="flex cursor-pointer items-start gap-3"
+        htmlFor={checkboxId}
+      >
         <input
           {...restInputProps}
           id={checkboxId}
@@ -73,36 +74,24 @@ function Checkbox({
             peer-disabled:bg-zinc-100
             peer-disabled:opacity-60
             `,
-            checkboxClassName
+            checkboxClassName,
           )}
         >
           {checked && (
-            <Check
-              size={14}
-              strokeWidth={3}
-              className="text-white"
-            />
+            <Check size={14} strokeWidth={3} className="text-white" />
           )}
         </div>
 
         <div className="flex flex-col">
           {label && (
-            <span className="text-sm font-medium text-white-700">
-              {label}
-            </span>
+            <span className="text-sm font-medium text-zinc-900">{label}</span>
           )}
 
           {helperText && !error && (
-            <span className="text-xs text-zinc-500">
-              {helperText}
-            </span>
+            <span className="text-xs text-zinc-500">{helperText}</span>
           )}
 
-          {error && (
-            <span className="text-xs text-red-500">
-              {error}
-            </span>
-          )}
+          {error && <span className="text-xs text-red-500">{error}</span>}
         </div>
       </label>
     </div>
