@@ -34,7 +34,7 @@ function Input({
 
       <div className="relative">
         {icon && (
-          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-white-400">
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400">
             {icon}
           </span>
         )}
@@ -74,7 +74,7 @@ function Input({
       </div>
 
       {helperText && !error && (
-        <p className="text-xs text-white-500">{helperText}</p>
+        <p className="text-xs text-zinc-500">{helperText}</p>
       )}
 
       {error && <p className="text-xs text-red-500">{error}</p>}
