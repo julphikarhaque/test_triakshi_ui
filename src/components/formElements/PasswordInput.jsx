@@ -46,7 +46,7 @@ function PasswordInput({
               rounded-xl
               border
               border-zinc-300
-              bg-white
+              bg-black
               pl-10
               pr-11
               text-zinc-900

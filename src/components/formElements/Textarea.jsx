@@ -2,36 +2,35 @@ import { useId } from "react";
 import { twMerge } from "tailwind-merge";
 
 function Textarea({
-    label = "Message",
-    helperText,
-    error,
-    textareaClassName,
-    textareaProps = {},
-    }) {
-    const generatedId = useId();
-    const textareaId = textareaProps.id || generatedId;
+  label = "Message",
+  helperText,
+  error,
+  textareaClassName,
+  textareaProps = {},
+}) {
+  const generatedId = useId();
+  const textareaId = textareaProps.id || generatedId;
 
-    return (
-        <div className="flex w-full flex-col gap-2">
-
-        {label && (
-            <label
-            htmlFor={textareaId}
-            className="
+  return (
+    <div className="flex w-full flex-col gap-2">
+      {label && (
+        <label
+          htmlFor={textareaId}
+          className="
                 text-sm
                 font-medium
-                text-white-700
+                text-zinc-900
             "
-            >
-            {label}
-            </label>
-        )}
+        >
+          {label}
+        </label>
+      )}
 
-        <textarea
-            {...textareaProps}
-            id={textareaId}
-            className={twMerge(
-            `
+      <textarea
+        {...textareaProps}
+        id={textareaId}
+        className={twMerge(
+          `
                 min-h-28
                 w-full
                 resize-y
@@ -51,40 +50,39 @@ function Textarea({
                 disabled:cursor-not-allowed
                 disabled:bg-zinc-100
             `,
-            error &&
-                `
+          error &&
+            `
                 border-red-500
                 focus:border-red-500
                 focus:ring-red-500/20
                 `,
-            textareaClassName
-            )}
-        />
+          textareaClassName,
+        )}
+      />
 
-        {helperText && !error && (
-            <p
-            className="
+      {helperText && !error && (
+        <p
+          className="
                 text-xs
                 text-zinc-500
             "
-            >
-            {helperText}
-            </p>
-        )}
+        >
+          {helperText}
+        </p>
+      )}
 
-        {error && (
-            <p
-            className="
+      {error && (
+        <p
+          className="
                 text-xs
                 text-red-500
             "
-            >
-            {error}
-            </p>
-        )}
-
-        </div>
-    );
+        >
+          {error}
+        </p>
+      )}
+    </div>
+  );
 }
 
 export default Textarea;
