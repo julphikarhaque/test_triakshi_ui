@@ -29,11 +29,11 @@ export default function TextareaPage() {
 
         <CodeBlock>
           {`<Textarea
-  label="Message"
-  textareaProps={{
-    placeholder: "Write your message...",
-  }}
-/>`}
+              label="Message"
+              textareaProps={{
+                placeholder: "Write your message...",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -55,12 +55,12 @@ export default function TextareaPage() {
 
         <CodeBlock>
           {`<Textarea
-  label="Feedback"
-  helperText="Tell us what you think about our product."
-  textareaProps={{
-    placeholder: "Write your feedback...",
-  }}
-/>`}
+              label="Feedback"
+              helperText="Tell us what you think about our product."
+              textareaProps={{
+                placeholder: "Write your feedback...",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -82,12 +82,12 @@ export default function TextareaPage() {
 
         <CodeBlock>
           {`<Textarea
-  label="Description"
-  error="Description is required."
-  textareaProps={{
-    placeholder: "Enter a description...",
-  }}
-/>`}
+              label="Description"
+              error="Description is required."
+              textareaProps={{
+                placeholder: "Enter a description...",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -109,12 +109,12 @@ export default function TextareaPage() {
 
         <CodeBlock>
           {`<Textarea
-  label="Description"
-  textareaProps={{
-    placeholder: "Disabled textarea",
-    disabled: true,
-  }}
-/>`}
+              label="Description"
+              textareaProps={{
+                placeholder: "Disabled textarea",
+                disabled: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -139,15 +139,15 @@ export default function TextareaPage() {
 
         <CodeBlock>
           {`<Textarea
-  label="Message"
-  textareaClassName="
-    min-h-40
-    rounded-2xl
-  "
-  textareaProps={{
-    placeholder: "Write a longer message...",
-  }}
-/>`}
+              label="Message"
+              textareaClassName="
+                min-h-40
+                rounded-2xl
+              "
+              textareaProps={{
+                placeholder: "Write a longer message...",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -170,13 +170,13 @@ export default function TextareaPage() {
 
         <CodeBlock>
           {`<Textarea
-  label="Bio"
-  helperText="Maximum 200 characters."
-  textareaProps={{
-    placeholder: "Tell us about yourself...",
-    maxLength: 200,
-  }}
-/>`}
+              label="Bio"
+              helperText="Maximum 200 characters."
+              textareaProps={{
+                placeholder: "Tell us about yourself...",
+                maxLength: 200,
+              }}
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

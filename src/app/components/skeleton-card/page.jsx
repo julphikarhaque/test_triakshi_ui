@@ -40,11 +40,11 @@ export default function SkeletonCardPage() {
 
         <CodeBlock>
           {`<div className="grid gap-4 md:grid-cols-2">
-  <SkeletonCard />
-  <SkeletonCard />
-  <SkeletonCard />
-  <SkeletonCard />
-</div>`}
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+              <SkeletonCard />
+            </div>`}
         </CodeBlock>
       </Section>
 
@@ -60,12 +60,12 @@ export default function SkeletonCardPage() {
 
         <CodeBlock>
           {`{isLoading ? (
-  <SkeletonCard />
-) : (
-  <Card>
-    Your content
-  </Card>
-)}`}
+              <SkeletonCard />
+            ) : (
+              <Card>
+                Your content
+              </Card>
+            )}`}
         </CodeBlock>
       </Section>
     </ComponentPage>

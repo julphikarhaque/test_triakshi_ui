@@ -24,23 +24,23 @@ export default function UsagePage() {
         <CodeBlock>
           {`import { Button, Input } from "triakshi-ui";
 
-export default function LoginForm() {
-  return (
-    <div>
-      <Input
-        label="Email"
-        inputProps={{
-          type: "email",
-          placeholder: "Enter your email",
-        }}
-      />
+            export default function LoginForm() {
+              return (
+                <div>
+                  <Input
+                    label="Email"
+                    inputProps={{
+                      type: "email",
+                      placeholder: "Enter your email",
+                    }}
+                  />
 
-      <Button>
-        Sign In
-      </Button>
-    </div>
-  );
-}`}
+                  <Button>
+                    Sign In
+                  </Button>
+                </div>
+              );
+            }`}
         </CodeBlock>
       </Section>
 
@@ -50,14 +50,14 @@ export default function LoginForm() {
       >
         <CodeBlock>
           {`<Button
-  variant="destructive"
-  buttonClassName="
-    rounded-full
-    px-8
-  "
->
-  Delete
-</Button>`}
+              variant="destructive"
+              buttonClassName="
+                rounded-full
+                px-8
+              "
+            >
+              Delete
+            </Button>`}
         </CodeBlock>
 
         <p className="text-sm leading-6 text-zinc-600">
@@ -72,14 +72,14 @@ export default function LoginForm() {
       >
         <CodeBlock>
           {`<Input
-  label="Email"
-  inputProps={{
-    type: "email",
-    required: true,
-    autoComplete: "email",
-    placeholder: "Enter your email",
-  }}
-/>`}
+              label="Email"
+              inputProps={{
+                type: "email",
+                required: true,
+                autoComplete: "email",
+                placeholder: "Enter your email",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -89,35 +89,35 @@ export default function LoginForm() {
       >
         <CodeBlock>
           {`import {
-  Input,
-  PasswordInput,
-  Button,
-} from "triakshi-ui";
+              Input,
+              PasswordInput,
+              Button,
+            } from "triakshi-ui";
 
-export default function LoginForm() {
-  return (
-    <form>
-      <Input
-        label="Email"
-        inputProps={{
-          type: "email",
-          placeholder: "Enter your email",
-        }}
-      />
+            export default function LoginForm() {
+              return (
+                <form>
+                  <Input
+                    label="Email"
+                    inputProps={{
+                      type: "email",
+                      placeholder: "Enter your email",
+                    }}
+                  />
 
-      <PasswordInput
-        label="Password"
-        inputProps={{
-          placeholder: "Enter your password",
-        }}
-      />
+                  <PasswordInput
+                    label="Password"
+                    inputProps={{
+                      placeholder: "Enter your password",
+                    }}
+                  />
 
-      <Button>
-        Sign In
-      </Button>
-    </form>
-  );
-}`}
+                  <Button>
+                    Sign In
+                  </Button>
+                </form>
+              );
+            }`}
         </CodeBlock>
       </Section>
 

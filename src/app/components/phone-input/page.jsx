@@ -31,11 +31,11 @@ export default function PhoneInputPage() {
 
         <CodeBlock>
           {`<PhoneInput
-  label="Phone Number"
-  inputProps={{
-    placeholder: "Enter your phone number",
-  }}
-/>`}
+              label="Phone Number"
+              inputProps={{
+                placeholder: "Enter your phone number",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -59,12 +59,12 @@ export default function PhoneInputPage() {
 
         <CodeBlock>
           {`<PhoneInput
-  label="Phone Number"
-  defaultCountry="US"
-  inputProps={{
-    placeholder: "Enter your phone number",
-  }}
-/>`}
+              label="Phone Number"
+              defaultCountry="US"
+              inputProps={{
+                placeholder: "Enter your phone number",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -88,12 +88,12 @@ export default function PhoneInputPage() {
 
         <CodeBlock>
           {`<PhoneInput
-  label="Phone Number"
-  helperText="Enter a valid phone number."
-  inputProps={{
-    placeholder: "Enter your phone number",
-  }}
-/>`}
+              label="Phone Number"
+              helperText="Enter a valid phone number."
+              inputProps={{
+                placeholder: "Enter your phone number",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -117,12 +117,12 @@ export default function PhoneInputPage() {
 
         <CodeBlock>
           {`<PhoneInput
-  label="Phone Number"
-  error="Please enter a valid phone number."
-  inputProps={{
-    placeholder: "Enter your phone number",
-  }}
-/>`}
+              label="Phone Number"
+              error="Please enter a valid phone number."
+              inputProps={{
+                placeholder: "Enter your phone number",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -137,9 +137,9 @@ export default function PhoneInputPage() {
             <PhoneInput
               label="Phone Number"
               inputClassName="
-    text-zinc-200
-    placeholder:text-zinc-500
-  "
+                  text-zinc-200
+                  placeholder:text-zinc-500
+                "
               inputProps={{
                 placeholder: "Custom phone input",
               }}
@@ -149,15 +149,15 @@ export default function PhoneInputPage() {
 
         <CodeBlock>
           {`<PhoneInput
-  label="Phone Number"
-  inputClassName="
-    text-zinc-200
-    placeholder:text-zinc-500
-  "
-  inputProps={{
-    placeholder: "Custom phone input",
-  }}
-/>`}
+              label="Phone Number"
+              inputClassName="
+                text-zinc-200
+                placeholder:text-zinc-500
+              "
+              inputProps={{
+                placeholder: "Custom phone input",
+              }}
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

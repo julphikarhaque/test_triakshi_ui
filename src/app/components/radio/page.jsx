@@ -46,28 +46,28 @@ export default function RadioPage() {
 
         <CodeBlock>
           {`<Radio
-  label="React"
-  inputProps={{
-    name: "technology",
-    value: "react",
-  }}
-/>
+              label="React"
+              inputProps={{
+                name: "technology",
+                value: "react",
+              }}
+            />
 
-<Radio
-  label="Next.js"
-  inputProps={{
-    name: "technology",
-    value: "nextjs",
-  }}
-/>
+            <Radio
+              label="Next.js"
+              inputProps={{
+                name: "technology",
+                value: "nextjs",
+              }}
+            />
 
-<Radio
-  label="Vue"
-  inputProps={{
-    name: "technology",
-    value: "vue",
-  }}
-/>`}
+            <Radio
+              label="Vue"
+              inputProps={{
+                name: "technology",
+                value: "vue",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -106,13 +106,13 @@ export default function RadioPage() {
 
         <CodeBlock>
           {`<Radio
-  label="React"
-  inputProps={{
-    name: "framework",
-    value: "react",
-    defaultChecked: true,
-  }}
-/>`}
+              label="React"
+              inputProps={{
+                name: "framework",
+                value: "react",
+                defaultChecked: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -135,13 +135,13 @@ export default function RadioPage() {
 
         <CodeBlock>
           {`<Radio
-  label="Email"
-  helperText="Receive notifications through email."
-  inputProps={{
-    name: "notification",
-    value: "email",
-  }}
-/>`}
+              label="Email"
+              helperText="Receive notifications through email."
+              inputProps={{
+                name: "notification",
+                value: "email",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -164,13 +164,13 @@ export default function RadioPage() {
 
         <CodeBlock>
           {`<Radio
-  label="Accept terms"
-  error="Please select this option to continue."
-  inputProps={{
-    name: "terms",
-    value: "accept",
-  }}
-/>`}
+              label="Accept terms"
+              error="Please select this option to continue."
+              inputProps={{
+                name: "terms",
+                value: "accept",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -201,13 +201,13 @@ export default function RadioPage() {
 
         <CodeBlock>
           {`<Radio
-  label="Unavailable option"
-  inputProps={{
-    name: "plan",
-    value: "premium",
-    disabled: true,
-  }}
-/>`}
+              label="Unavailable option"
+              inputProps={{
+                name: "plan",
+                value: "premium",
+                disabled: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -233,16 +233,16 @@ export default function RadioPage() {
 
         <CodeBlock>
           {`<Radio
-  label="Custom radio"
-  radioClassName="
-    border-blue-500
-    rounded-md
-  "
-  inputProps={{
-    name: "custom",
-    value: "custom",
-  }}
-/>`}
+              label="Custom radio"
+              radioClassName="
+                border-blue-500
+                rounded-md
+              "
+              inputProps={{
+                name: "custom",
+                value: "custom",
+              }}
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

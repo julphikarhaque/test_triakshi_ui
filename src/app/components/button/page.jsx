@@ -25,8 +25,8 @@ export default function ButtonPage() {
 
         <CodeBlock>
           {`<Button>
-  Add Customer
-</Button>`}
+              Add Customer
+            </Button>`}
         </CodeBlock>
       </Section>
 
@@ -48,16 +48,16 @@ export default function ButtonPage() {
 
         <CodeBlock>
           {`<Button variant="primary">
-  Primary
-</Button>
+              Primary
+            </Button>
 
-<Button variant="secondary">
-  Secondary
-</Button>
+            <Button variant="secondary">
+              Secondary
+            </Button>
 
-<Button variant="destructive">
-  Destructive
-</Button>`}
+            <Button variant="destructive">
+              Destructive
+            </Button>`}
         </CodeBlock>
       </Section>
 
@@ -81,23 +81,23 @@ export default function ButtonPage() {
 
         <CodeBlock>
           {`<Button
-  leftIcon={<Plus size={18} />}
->
-  Add Customer
-</Button>
+              leftIcon={<Plus size={18} />}
+            >
+              Add Customer
+            </Button>
 
-<Button
-  rightIcon={<ArrowRight size={18} />}
->
-  Continue
-</Button>
+            <Button
+              rightIcon={<ArrowRight size={18} />}
+            >
+              Continue
+            </Button>
 
-<Button
-  leftIcon={<Trash2 size={18} />}
-  variant="destructive"
->
-  Delete
-</Button>`}
+            <Button
+              leftIcon={<Trash2 size={18} />}
+              variant="destructive"
+            >
+              Delete
+            </Button>`}
         </CodeBlock>
       </Section>
 
@@ -118,11 +118,11 @@ export default function ButtonPage() {
 
         <CodeBlock>
           {`<Button
-  leftIcon={<Plus size={18} />}
-  rightIcon={<ArrowRight size={18} />}
->
-  Add Customer
-</Button>`}
+              leftIcon={<Plus size={18} />}
+              rightIcon={<ArrowRight size={18} />}
+            >
+              Add Customer
+            </Button>`}
         </CodeBlock>
       </Section>
 
@@ -155,12 +155,12 @@ export default function ButtonPage() {
 
         <CodeBlock>
           {`<Button
-  buttonProps={{
-    disabled: true,
-  }}
->
-  Disabled
-</Button>`}
+              buttonProps={{
+                disabled: true,
+              }}
+            >
+              Disabled
+            </Button>`}
         </CodeBlock>
       </Section>
 
@@ -183,13 +183,13 @@ export default function ButtonPage() {
 
         <CodeBlock>
           {`<Button
-  buttonClassName="
-    rounded-full
-    px-8
-  "
->
-  Custom Button
-</Button>`}
+              buttonClassName="
+                rounded-full
+                px-8
+              "
+            >
+              Custom Button
+            </Button>`}
         </CodeBlock>
       </Section>
 
@@ -214,15 +214,15 @@ export default function ButtonPage() {
 
         <CodeBlock>
           {`<Button
-  variant="destructive"
-  leftIcon={<Trash2 size={18} />}
-  buttonClassName="
-    rounded-full
-    px-6
-  "
->
-  Delete Customer
-</Button>`}
+              variant="destructive"
+              leftIcon={<Trash2 size={18} />}
+              buttonClassName="
+                rounded-full
+                px-6
+              "
+            >
+              Delete Customer
+            </Button>`}
         </CodeBlock>
       </Section>
     </ComponentPage>

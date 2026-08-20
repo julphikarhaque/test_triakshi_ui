@@ -24,8 +24,8 @@ export default function FileUploadPage() {
 
         <CodeBlock>
           {`<FileUpload
-  label="Upload File"
-/>`}
+              label="Upload File"
+            />`}
         </CodeBlock>
       </Section>
 
@@ -46,11 +46,11 @@ export default function FileUploadPage() {
 
         <CodeBlock>
           {`<FileUpload
-  label="Documents"
-  inputProps={{
-    multiple: true,
-  }}
-/>`}
+              label="Documents"
+              inputProps={{
+                multiple: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -71,11 +71,11 @@ export default function FileUploadPage() {
 
         <CodeBlock>
           {`<FileUpload
-  label="Documents"
-  inputProps={{
-    accept: ".pdf,.doc,.docx",
-  }}
-/>`}
+              label="Documents"
+              inputProps={{
+                accept: ".pdf,.doc,.docx",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -97,12 +97,12 @@ export default function FileUploadPage() {
 
         <CodeBlock>
           {`<FileUpload
-  label="Documents"
-  inputProps={{
-    multiple: true,
-    accept: ".pdf,.doc,.docx",
-  }}
-/>`}
+              label="Documents"
+              inputProps={{
+                multiple: true,
+                accept: ".pdf,.doc,.docx",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -124,12 +124,12 @@ export default function FileUploadPage() {
 
         <CodeBlock>
           {`<FileUpload
-  label="Upload Resume"
-  uploadClassName="
-    min-h-40
-    rounded-2xl
-  "
-/>`}
+              label="Upload Resume"
+              uploadClassName="
+                min-h-40
+                rounded-2xl
+              "
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

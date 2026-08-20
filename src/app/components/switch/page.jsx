@@ -24,8 +24,8 @@ export default function SwitchPage() {
 
         <CodeBlock>
           {`<Switch
-  label="Notifications"
-/>`}
+              label="Notifications"
+            />`}
         </CodeBlock>
       </Section>
 
@@ -44,9 +44,9 @@ export default function SwitchPage() {
 
         <CodeBlock>
           {`<Switch
-  label="Email Notifications"
-  helperText="Receive important updates by email."
-/>`}
+              label="Email Notifications"
+              helperText="Receive important updates by email."
+            />`}
         </CodeBlock>
       </Section>
 
@@ -67,11 +67,11 @@ export default function SwitchPage() {
 
         <CodeBlock>
           {`<Switch
-  label="Auto Save"
-  inputProps={{
-    defaultChecked: true,
-  }}
-/>`}
+              label="Auto Save"
+              inputProps={{
+                defaultChecked: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -94,11 +94,11 @@ export default function SwitchPage() {
 
         <CodeBlock>
           {`<Switch
-  label="Disabled"
-  inputProps={{
-    disabled: true,
-  }}
-/>`}
+              label="Disabled"
+              inputProps={{
+                disabled: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -119,11 +119,11 @@ export default function SwitchPage() {
 
         <CodeBlock>
           {`<Switch
-  label="Custom Switch"
-  switchClassName="
-    scale-110
-  "
-/>`}
+              label="Custom Switch"
+              switchClassName="
+                scale-110
+              "
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

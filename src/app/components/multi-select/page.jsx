@@ -57,13 +57,13 @@ export default function MultiSelectPage() {
         <CodeBlock>
           {`const [selectedSkills, setSelectedSkills] = useState([]);
 
-<MultiSelect
-  label="Skills"
-  options={skills}
-  value={selectedSkills}
-  onChange={setSelectedSkills}
-  placeholder="Select your skills..."
-/>`}
+              <MultiSelect
+                label="Skills"
+                options={skills}
+                value={selectedSkills}
+                onChange={setSelectedSkills}
+                placeholder="Select your skills..."
+              />`}
         </CodeBlock>
       </Section>
 
@@ -85,12 +85,12 @@ export default function MultiSelectPage() {
 
         <CodeBlock>
           {`<MultiSelect
-  label="Technologies"
-  options={skills}
-  value={selectedSkills}
-  onChange={setSelectedSkills}
-  placeholder="Choose technologies..."
-/>`}
+              label="Technologies"
+              options={skills}
+              value={selectedSkills}
+              onChange={setSelectedSkills}
+              placeholder="Choose technologies..."
+            />`}
         </CodeBlock>
       </Section>
 
@@ -112,12 +112,12 @@ export default function MultiSelectPage() {
 
         <CodeBlock>
           {`<MultiSelect
-  label="Skills"
-  options={skills}
-  value={selectedSkills}
-  onChange={setSelectedSkills}
-  placeholder="Select skills..."
-/>`}
+              label="Skills"
+              options={skills}
+              value={selectedSkills}
+              onChange={setSelectedSkills}
+              placeholder="Select skills..."
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

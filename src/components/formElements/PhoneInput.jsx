@@ -48,14 +48,14 @@ function PhoneInput({
       >
         <div
           className="
-    flex
-    items-center
-    gap-2
-    border-r
-    border-zinc-300
-    px-3
-    text-zinc-100
-  "
+            flex
+            items-center
+            gap-2
+            border-r
+            border-zinc-300
+            px-3
+            text-zinc-100
+          "
         >
           <span>{countryName}</span>
 

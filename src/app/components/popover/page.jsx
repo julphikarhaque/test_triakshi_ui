@@ -286,23 +286,25 @@ export default function PopoverPage() {
 
         <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-950">
           <pre className="overflow-x-auto p-6 text-sm leading-6 text-zinc-200">
-            <code>{`import Popover from "@/components/overlaySurfaces/Popover";
+            <code>
+              {`import Popover from "@/components/overlaySurfaces/Popover";
 
-export default function Example() {
-  return (
-    <Popover
-      trigger={
-        <button>
-          Open
-        </button>
-      }
-    >
-      <div>
-        Popover content
-      </div>
-    </Popover>
-  );
-}`}</code>
+                    export default function Example() {
+                      return (
+                        <Popover
+                          trigger={
+                            <button>
+                              Open
+                            </button>
+                          }
+                        >
+                          <div>
+                            Popover content
+                          </div>
+                        </Popover>
+                      );
+                    }`}
+            </code>
           </pre>
         </div>
       </section>

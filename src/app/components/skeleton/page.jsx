@@ -42,9 +42,9 @@ export default function SkeletonPage() {
         <CodeBlock>
           {`<Skeleton className="h-4 w-3/4" />
 
-<Skeleton className="h-4 w-1/2" />
+            <Skeleton className="h-4 w-1/2" />
 
-<Skeleton className="h-10 w-full rounded-xl" />`}
+            <Skeleton className="h-10 w-full rounded-xl" />`}
         </CodeBlock>
       </Section>
 
@@ -63,11 +63,11 @@ export default function SkeletonPage() {
 
         <CodeBlock>
           {`<div className="space-y-3">
-  <Skeleton className="h-5 w-2/3" />
-  <Skeleton className="h-4 w-full" />
-  <Skeleton className="h-4 w-5/6" />
-  <Skeleton className="h-4 w-3/4" />
-</div>`}
+              <Skeleton className="h-5 w-2/3" />
+              <Skeleton className="h-4 w-full" />
+              <Skeleton className="h-4 w-5/6" />
+              <Skeleton className="h-4 w-3/4" />
+            </div>`}
         </CodeBlock>
       </Section>
 
@@ -101,13 +101,13 @@ export default function SkeletonPage() {
 
         <CodeBlock>
           {`<div className="flex items-center gap-4">
-  <Skeleton className="h-14 w-14 rounded-full" />
+              <Skeleton className="h-14 w-14 rounded-full" />
 
-  <div className="flex flex-1 flex-col gap-2">
-    <Skeleton className="h-4 w-1/2" />
-    <Skeleton className="h-3 w-3/4" />
-  </div>
-</div>`}
+              <div className="flex flex-1 flex-col gap-2">
+                <Skeleton className="h-4 w-1/2" />
+                <Skeleton className="h-3 w-3/4" />
+              </div>
+            </div>`}
         </CodeBlock>
       </Section>
     </ComponentPage>

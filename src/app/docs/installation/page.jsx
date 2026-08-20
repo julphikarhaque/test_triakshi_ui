@@ -34,13 +34,13 @@ export default function InstallationPage() {
         <CodeBlock>
           {`import { Button } from "triakshi-ui";
 
-export default function Example() {
-  return (
-    <Button>
-      Get Started
-    </Button>
-  );
-}`}
+            export default function Example() {
+              return (
+                <Button>
+                  Get Started
+                </Button>
+              );
+            }`}
         </CodeBlock>
       </Section>
 

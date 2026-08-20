@@ -31,11 +31,11 @@ export default function PasswordInputPage() {
 
         <CodeBlock>
           {`<PasswordInput
-  label="Password"
-  inputProps={{
-    placeholder: "Enter your password",
-  }}
-/>`}
+              label="Password"
+              inputProps={{
+                placeholder: "Enter your password",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -59,12 +59,12 @@ export default function PasswordInputPage() {
 
         <CodeBlock>
           {`<PasswordInput
-  label="Password"
-  helperText="Password must contain at least 8 characters."
-  inputProps={{
-    placeholder: "Enter your password",
-  }}
-/>`}
+              label="Password"
+              helperText="Password must contain at least 8 characters."
+              inputProps={{
+                placeholder: "Enter your password",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -88,12 +88,12 @@ export default function PasswordInputPage() {
 
         <CodeBlock>
           {`<PasswordInput
-  label="Password"
-  error="Password is incorrect."
-  inputProps={{
-    placeholder: "Enter your password",
-  }}
-/>`}
+              label="Password"
+              error="Password is incorrect."
+              inputProps={{
+                placeholder: "Enter your password",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -117,12 +117,12 @@ export default function PasswordInputPage() {
 
         <CodeBlock>
           {`<PasswordInput
-  label="Password"
-  inputProps={{
-    placeholder: "Password",
-    disabled: true,
-  }}
-/>`}
+              label="Password"
+              inputProps={{
+                placeholder: "Password",
+                disabled: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -137,10 +137,10 @@ export default function PasswordInputPage() {
             <PasswordInput
               label="Password"
               inputClassName="
-    rounded-full
-    border-blue-500
-    bg-zinc-50
-  "
+                  rounded-full
+                  border-blue-500
+                  bg-zinc-50
+                "
               inputProps={{
                 placeholder: "Custom password input",
               }}
@@ -150,16 +150,16 @@ export default function PasswordInputPage() {
 
         <CodeBlock>
           {`<PasswordInput
-  label="Password"
-  inputClassName="
-    rounded-full
-    border-blue-500
-    bg-zinc-50
-  "
-  inputProps={{
-    placeholder: "Custom password input",
-  }}
-/>`}
+              label="Password"
+              inputClassName="
+                rounded-full
+                border-blue-500
+                bg-zinc-50
+              "
+              inputProps={{
+                placeholder: "Custom password input",
+              }}
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

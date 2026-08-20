@@ -22,8 +22,8 @@ export default function BadgePage() {
 
         <CodeBlock>
           {`<Badge>
-  New
-</Badge>`}
+              New
+            </Badge>`}
         </CodeBlock>
       </Section>
 
@@ -47,24 +47,24 @@ export default function BadgePage() {
 
         <CodeBlock>
           {`<Badge variant="default">
-  Default
-</Badge>
+              Default
+            </Badge>
 
-<Badge variant="success">
-  Success
-</Badge>
+            <Badge variant="success">
+              Success
+            </Badge>
 
-<Badge variant="warning">
-  Warning
-</Badge>
+            <Badge variant="warning">
+              Warning
+            </Badge>
 
-<Badge variant="error">
-  Error
-</Badge>
+            <Badge variant="error">
+              Error
+            </Badge>
 
-<Badge variant="info">
-  Info
-</Badge>`}
+            <Badge variant="info">
+              Info
+            </Badge>`}
         </CodeBlock>
       </Section>
 
@@ -84,16 +84,16 @@ export default function BadgePage() {
 
         <CodeBlock>
           {`<Badge size="sm">
-  Small
-</Badge>
+              Small
+            </Badge>
 
-<Badge size="md">
-  Medium
-</Badge>
+            <Badge size="md">
+              Medium
+            </Badge>
 
-<Badge size="lg">
-  Large
-</Badge>`}
+            <Badge size="lg">
+              Large
+            </Badge>`}
         </CodeBlock>
       </Section>
 
@@ -115,20 +115,20 @@ export default function BadgePage() {
 
         <CodeBlock>
           {`<Badge variant="success">
-  Active
-</Badge>
+              Active
+            </Badge>
 
-<Badge variant="warning">
-  Pending
-</Badge>
+            <Badge variant="warning">
+              Pending
+            </Badge>
 
-<Badge variant="error">
-  Failed
-</Badge>
+            <Badge variant="error">
+              Failed
+            </Badge>
 
-<Badge variant="info">
-  Processing
-</Badge>`}
+            <Badge variant="info">
+              Processing
+            </Badge>`}
         </CodeBlock>
       </Section>
 
@@ -150,14 +150,14 @@ export default function BadgePage() {
 
         <CodeBlock>
           {`<Badge
-  variant="info"
-  badgeClassName="
-    rounded-lg
-    px-4
-  "
->
-  AI Agent
-</Badge>`}
+              variant="info"
+              badgeClassName="
+                rounded-lg
+                px-4
+              "
+            >
+              AI Agent
+            </Badge>`}
         </CodeBlock>
       </Section>
     </ComponentPage>

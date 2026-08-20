@@ -166,17 +166,19 @@ export default function TooltipPage() {
 
         <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-950">
           <pre className="overflow-x-auto p-6 text-sm leading-6 text-zinc-200">
-            <code>{`import Tooltip from "@/components/overlaySurfaces/Tooltip";
+            <code>
+              {`import Tooltip from "@/components/overlaySurfaces/Tooltip";
 
-export default function Example() {
-  return (
-    <Tooltip content="Edit this item">
-      <button>
-        Edit
-      </button>
-    </Tooltip>
-  );
-}`}</code>
+                    export default function Example() {
+                      return (
+                        <Tooltip content="Edit this item">
+                          <button>
+                            Edit
+                          </button>
+                        </Tooltip>
+                      );
+                    }`}
+            </code>
           </pre>
         </div>
       </section>

@@ -22,9 +22,9 @@ export default function AvatarPage() {
 
         <CodeBlock>
           {`<Avatar
-  src="/man.png"
-  fallback="JD"
-/>`}
+              src="/man.png"
+              fallback="JD"
+            />`}
         </CodeBlock>
       </Section>
 
@@ -38,8 +38,8 @@ export default function AvatarPage() {
 
         <CodeBlock>
           {`<Avatar
-  fallback="JD"
-/>`}
+              fallback="JD"
+            />`}
         </CodeBlock>
       </Section>
 
@@ -61,24 +61,24 @@ export default function AvatarPage() {
 
         <CodeBlock>
           {`<Avatar
-  fallback="SM"
-  size="sm"
-/>
+              fallback="SM"
+              size="sm"
+            />
 
-<Avatar
-  fallback="MD"
-  size="md"
-/>
+            <Avatar
+              fallback="MD"
+              size="md"
+            />
 
-<Avatar
-  fallback="LG"
-  size="lg"
-/>
+            <Avatar
+              fallback="LG"
+              size="lg"
+            />
 
-<Avatar
-  fallback="XL"
-  size="xl"
-/>`}
+            <Avatar
+              fallback="XL"
+              size="xl"
+            />`}
         </CodeBlock>
       </Section>
 
@@ -98,10 +98,10 @@ export default function AvatarPage() {
 
         <CodeBlock>
           {`<Avatar
-  src="/man.png"
-  fallback="JD"
-  size="lg"
-/>`}
+              src="/man.png"
+              fallback="JD"
+              size="lg"
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

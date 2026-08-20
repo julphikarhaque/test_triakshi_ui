@@ -223,7 +223,7 @@ export default function DrawerPage() {
                         </Drawer>
                         </>
                     );
-}`}{" "}
+                  }`}{" "}
             </code>
           </pre>
         </div>

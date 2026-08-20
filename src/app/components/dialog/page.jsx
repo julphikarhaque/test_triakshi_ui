@@ -122,16 +122,16 @@ export default function DialogPage() {
             type="button"
             onClick={() => setSimpleOpen(true)}
             className="
-        rounded-xl
-        bg-zinc-900
-        px-5
-        py-2.5
-        text-sm
-        font-medium
-        text-white
-        transition
-        hover:bg-zinc-800
-      "
+                rounded-xl
+                bg-zinc-900
+                px-5
+                py-2.5
+                text-sm
+                font-medium
+                text-white
+                transition
+                hover:bg-zinc-800
+              "
           >
             Open Simple Dialog
           </button>
@@ -183,7 +183,7 @@ export default function DialogPage() {
                             description="This is an example dialog."
                         >
                             <p>
-                            Your dialog content goes here.
+                              Your dialog content goes here.
                             </p>
                         </Dialog>
                         </>

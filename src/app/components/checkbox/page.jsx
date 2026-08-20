@@ -24,8 +24,8 @@ export default function CheckboxPage() {
 
         <CodeBlock>
           {`<Checkbox
-  label="Accept terms and conditions"
-/>`}
+              label="Accept terms and conditions"
+            />`}
         </CodeBlock>
       </Section>
 
@@ -44,9 +44,9 @@ export default function CheckboxPage() {
 
         <CodeBlock>
           {`<Checkbox
-  label="Accept terms"
-  helperText="You agree to our terms and conditions."
-/>`}
+              label="Accept terms"
+              helperText="You agree to our terms and conditions."
+            />`}
         </CodeBlock>
       </Section>
 
@@ -62,9 +62,9 @@ export default function CheckboxPage() {
 
         <CodeBlock>
           {`<Checkbox
-  label="Accept terms"
-  error="You must accept the terms."
-/>`}
+              label="Accept terms"
+              error="You must accept the terms."
+            />`}
         </CodeBlock>
       </Section>
 
@@ -85,11 +85,11 @@ export default function CheckboxPage() {
 
         <CodeBlock>
           {`<Checkbox
-  label="Enable notifications"
-  inputProps={{
-    defaultChecked: true,
-  }}
-/>`}
+              label="Enable notifications"
+              inputProps={{
+                defaultChecked: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -110,11 +110,11 @@ export default function CheckboxPage() {
 
         <CodeBlock>
           {`<Checkbox
-  label="Disabled option"
-  inputProps={{
-    disabled: true,
-  }}
-/>`}
+              label="Disabled option"
+              inputProps={{
+                disabled: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -136,12 +136,12 @@ export default function CheckboxPage() {
 
         <CodeBlock>
           {`<Checkbox
-  label="Custom checkbox"
-  checkboxClassName="
-    rounded-full
-    border-blue-500
-  "
-/>`}
+              label="Custom checkbox"
+              checkboxClassName="
+                rounded-full
+                border-blue-500
+              "
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

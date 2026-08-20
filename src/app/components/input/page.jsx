@@ -32,11 +32,11 @@ export default function InputPage() {
 
         <CodeBlock>
           {`<Input
-  label="Name"
-  inputProps={{
-    placeholder: "Enter your name",
-  }}
-/>`}
+              label="Name"
+              inputProps={{
+                placeholder: "Enter your name",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -61,13 +61,13 @@ export default function InputPage() {
         <CodeBlock>
           {`import { User } from "lucide-react";
 
-<Input
-  label="Username"
-  leftIcon={<User size={20} />}
-  inputProps={{
-    placeholder: "Enter username",
-  }}
-/>`}
+            <Input
+              label="Username"
+              leftIcon={<User size={20} />}
+              inputProps={{
+                placeholder: "Enter username",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -93,14 +93,14 @@ export default function InputPage() {
 
         <CodeBlock>
           {`<Input
-  type="email"
-  label="Email"
-  leftIcon={<Mail size={20} />}
-  inputProps={{
-    placeholder: "Enter your email",
-    autoComplete: "email",
-  }}
-/>`}
+              type="email"
+              label="Email"
+              leftIcon={<Mail size={20} />}
+              inputProps={{
+                placeholder: "Enter your email",
+                autoComplete: "email",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -124,12 +124,12 @@ export default function InputPage() {
 
         <CodeBlock>
           {`<Input
-  label="Username"
-  helperText="Username must be at least 3 characters."
-  inputProps={{
-    placeholder: "Enter username",
-  }}
-/>`}
+              label="Username"
+              helperText="Username must be at least 3 characters."
+              inputProps={{
+                placeholder: "Enter username",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -153,12 +153,12 @@ export default function InputPage() {
 
         <CodeBlock>
           {`<Input
-  label="Email"
-  error="Please enter a valid email address."
-  inputProps={{
-    placeholder: "Enter your email",
-  }}
-/>`}
+              label="Email"
+              error="Please enter a valid email address."
+              inputProps={{
+                placeholder: "Enter your email",
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -182,12 +182,12 @@ export default function InputPage() {
 
         <CodeBlock>
           {`<Input
-  label="Username"
-  inputProps={{
-    placeholder: "Disabled input",
-    disabled: true,
-  }}
-/>`}
+              label="Username"
+              inputProps={{
+                placeholder: "Disabled input",
+                disabled: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -215,16 +215,16 @@ export default function InputPage() {
 
         <CodeBlock>
           {`<Input
-  label="Custom Input"
-  inputClassName="
-    rounded-full
-    border-blue-500
-    px-5
-  "
-  inputProps={{
-    placeholder: "Custom styled input",
-  }}
-/>`}
+              label="Custom Input"
+              inputClassName="
+                rounded-full
+                border-blue-500
+                px-5
+              "
+              inputProps={{
+                placeholder: "Custom styled input",
+              }}
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

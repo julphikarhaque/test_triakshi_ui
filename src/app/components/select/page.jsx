@@ -49,24 +49,24 @@ export default function SelectPage() {
 
         <CodeBlock>
           {`const countries = [
-  {
-    label: "Choose Country",
-    value: "",
-  },
-  {
-    label: "India",
-    value: "india",
-  },
-  {
-    label: "United States",
-    value: "usa",
-  },
-];
+            {
+              label: "Choose Country",
+              value: "",
+            },
+            {
+              label: "India",
+              value: "india",
+            },
+            {
+              label: "United States",
+              value: "usa",
+            },
+          ];
 
-<SelectInput
-  label="Country"
-  options={countries}
-/>`}
+          <SelectInput
+            label="Country"
+            options={countries}
+          />`}
         </CodeBlock>
       </Section>
 
@@ -88,10 +88,10 @@ export default function SelectPage() {
 
         <CodeBlock>
           {`<SelectInput
-  label="Country"
-  helperText="Select the country where you live."
-  options={countries}
-/>`}
+              label="Country"
+              helperText="Select the country where you live."
+              options={countries}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -113,10 +113,10 @@ export default function SelectPage() {
 
         <CodeBlock>
           {`<SelectInput
-  label="Country"
-  error="Please select a country."
-  options={countries}
-/>`}
+              label="Country"
+              error="Please select a country."
+              options={countries}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -140,12 +140,12 @@ export default function SelectPage() {
 
         <CodeBlock>
           {`<SelectInput
-  label="Country"
-  options={countries}
-  inputProps={{
-    disabled: true,
-  }}
-/>`}
+              label="Country"
+              options={countries}
+              inputProps={{
+                disabled: true,
+              }}
+            />`}
         </CodeBlock>
       </Section>
 
@@ -170,13 +170,13 @@ export default function SelectPage() {
 
         <CodeBlock>
           {`<SelectInput
-  label="Country"
-  options={countries}
-  selectClassName="
-    rounded-full
-    border-blue-500
-  "
-/>`}
+              label="Country"
+              options={countries}
+              selectClassName="
+                rounded-full
+                border-blue-500
+              "
+            />`}
         </CodeBlock>
       </Section>
     </ComponentPage>

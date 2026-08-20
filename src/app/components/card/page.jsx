@@ -32,14 +32,14 @@ export default function CardPage() {
 
         <CodeBlock>
           {`<Card>
-  <h3 className="text-lg font-semibold text-zinc-900">
-    Customer Overview
-  </h3>
+              <h3 className="text-lg font-semibold text-zinc-900">
+                Customer Overview
+              </h3>
 
-  <p className="mt-2 text-sm text-zinc-500">
-    View customer information, activity, and recent interactions.
-  </p>
-</Card>`}
+              <p className="mt-2 text-sm text-zinc-500">
+                View customer information, activity, and recent interactions.
+              </p>
+            </Card>`}
         </CodeBlock>
       </Section>
 
@@ -92,24 +92,24 @@ export default function CardPage() {
 
         <CodeBlock>
           {`<Card>
-  <h3 className="text-lg font-semibold text-zinc-900">
-    AI Agent
-  </h3>
+              <h3 className="text-lg font-semibold text-zinc-900">
+                AI Agent
+              </h3>
 
-  <p className="mt-2 text-sm text-zinc-500">
-    Your customer support agent is ready to receive calls.
-  </p>
+              <p className="mt-2 text-sm text-zinc-500">
+                Your customer support agent is ready to receive calls.
+              </p>
 
-  <div className="mt-5 flex gap-3">
-    <button>
-      Configure
-    </button>
+              <div className="mt-5 flex gap-3">
+                <button>
+                  Configure
+                </button>
 
-    <button>
-      View
-    </button>
-  </div>
-</Card>`}
+                <button>
+                  View
+                </button>
+              </div>
+            </Card>`}
         </CodeBlock>
       </Section>
 
@@ -150,22 +150,22 @@ export default function CardPage() {
 
         <CodeBlock>
           {`<Card>
-  <div className="flex items-center justify-between">
-    <div>
-      <p className="text-sm text-zinc-500">
-        Total Customers
-      </p>
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="text-sm text-zinc-500">
+                    Total Customers
+                  </p>
 
-      <p className="mt-1 text-3xl font-bold text-zinc-900">
-        2,480
-      </p>
-    </div>
+                  <p className="mt-1 text-3xl font-bold text-zinc-900">
+                    2,480
+                  </p>
+                </div>
 
-    <div className="rounded-xl bg-blue-50 px-3 py-2">
-      +18%
-    </div>
-  </div>
-</Card>`}
+                <div className="rounded-xl bg-blue-50 px-3 py-2">
+                  +18%
+                </div>
+              </div>
+            </Card>`}
         </CodeBlock>
       </Section>
     </ComponentPage>
